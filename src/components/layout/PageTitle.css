@@ -1,0 +1,24 @@
+.PageTitle {
+    border-left: 10px solid #00fdb1;
+    padding: 15px;
+    background: #006c9025;
+    margin-bottom: 40px;
+}
+
+.PageTitle h1 {
+    margin: 0;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.PageTitle h2 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-weight: 300;
+    color: #FFF;
+}
+
+.PageTitle.error{
+    border-left: 12px solid#cb2d3e;
+    background:#cb2d3e25;
+}
