@@ -8,12 +8,12 @@ import Content from '../components/layout/Content'
 const App = props => {
 
     return (
-                <div className="App">
-                    <Router>
-                        <Menu />
-                        <Content />
-                    </Router>
-                </div>
+        <div className="App">
+            <Router>
+                <Menu />
+                <Content />
+            </Router>
+        </div>
     )
 }
 
