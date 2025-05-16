@@ -20,7 +20,7 @@ const UseMemo = (props) => {
         while (futureTime > Date.now()){}
         return parseInt(num1)+parseInt(num2)
     }
-
+    // Usando useMemo, só recalcula a soma quando se alterar n1 ou n2
     const result = useMemo(()=>soma(n1, n2), [n1, n2])
 
     return (
