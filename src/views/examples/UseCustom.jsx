@@ -1,6 +1,6 @@
 import React from 'react'
 import PageTitle from '../../components/layout/PageTitle';
-import { UseCounter } from '../../hooks/UseCounter';
+import { UseCounter } from '../../hooks/useCounter';
 
 /**
  * Exemplo de hook criado para 
